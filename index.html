@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Strona główna</title>
+           <meta charset="UTF-8">
+           <meta name="viewport" content="width=device-width, initial-scale=1.0">
+           <link rel="stylesheet" href="styles.css">
+    </head>
+
+<body>
+    <header></header>    
+                    
+<ul>  
+   <li><a href="index.html">Strona główna</a></li>
+   <li><a href="subpage.html">Galeria</a></li>
+   <li><a href="subpage2.html">Kalkulator</a></li>
+</ul>
+
+<article>
+
+<h1> Czy chcesz dowiedzieć się czegoś o Norylsku?</h1>
+
+<button id= "button1" type="button" onclick='document.getElementById("demo1").style.display = "block"; document.getElementById("button1").style.display = "none"; document.getElementById("button2").style.display = "block"'>Pokaż</button> 
+    <button id= "button2" type="button" style="display:none" onclick='document.getElementById("demo1").style.display = "none"; document.getElementById("button1").style.display = "block"; document.getElementById("button2").style.display = "none"'>Ukryj</button>  
+
+
+<p id="demo1" style="display:none">   <br> – Norylsk miasto zamknięte w azjatyckiej części Rosji w Kraju Krasnojarskim, w Tajmyrskij Dołgano-Nienieckij rejonie. Norylsk jest jednym z najbardziej wysuniętych na północ miast na świecie.
+W 2016 miasto liczyło 177 428 mieszkańców i podlega bezpośrednio władzy w Kraju Krasnojarskim. Zostało zbudowane w latach 30. XX wieku przez więźniów. W czasach ZSRR rejon wielu łagrów. Prawa miejskie uzyskało w 1953. Początkowo miasto stanowili głównie z robotników uwięzionych w łagrach. <br>
+-jest rosyjskim centrum hutnictwa i górnictwa metali niezależnych oraz węgla kamiennego
+-jest miastem zamkniętym: można się tu dostać jedynie za pozwoleniem władz <br>
+-znajduje się tu największy na świecie zakład metali cięzkich należący do rosyjskiego koncernu Nornickiel<br>
+-obecnie średnia długość życia jest o 10 lat niższa, a zapadalność na nowotwory 2 razy wyższa niż w pozostałej części Rosji <br>
+-280- liczba dni w roku, w które są odnotowywane ujemne temperatury
+-Rosyjska Fedralna Służba Statystyki Państwowej uznała Norylsk za najbardziej zanieczyszczone miasto w Rosji <br>
+-30% zatrudnionych w kopalniach to kobiety
+</p>
+
+<p id="demo3">(ros. Норильск, Norilsk)</p> <button id= "button3" type="button" onclick="document.getElementById('demo3').style.fontSize='35px'">Powiększ</button>
+
+<h2>Średnie temperatury w poszczególnych miesiącach</h2>
+<p id="demo4">Czerwiec, lipiec, sierpień: 9,7 st. Celsiujsza</p>
+<button id= "button3" type="button" onclick="document.getElementById('demo4').innerHTML = 'Styczeń, luty, marzec, kwiecień, maj, wrzesień, październik, listopad, grudzień: -18,2 st. Celsiujsza'";> Pokaż</button> <br>
+
+
+<button id= "button4" onclick="document.getElementById('demo5').src='lato.png'">Lato</button>
+
+
+<img id="demo5" src="lato.png">
+<button id= "button5" onclick="document.getElementById('demo5').src='zima.png'">Zima</button>
+
+
+<footer></footer>
+
+</body>
+</html>

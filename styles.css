@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: LightGoldenRodYellow ;
+  color: black;
+  text-allign: center;
+  marigin:0 auto;
+}
+
+header { 
+}
+
+input[type=number], select, button {
+  width: 50%;
+  padding: 20px 30px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin:0 auto;
+  display:block;
+  font-family:Comic Sans Ms;
+  text-align:center;
+}
+
+#button1, #button2, #button3, #button4, #button5 {
+  padding: 12px 0px; 
+  width: 10%;
+}
+
+.miniature:hover {
+width: 120px;
+height: 120px;
+cursor: pointer;
+}
+.miniature {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+a:link, a:visited {
+  background-color: LavenderBlush;
+  color: black;
+  width: 100%;
+  height: 50px;
+  padding: 14px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: BurlyWood ;
+}
+
+nav {
+  float: left;
+  width: 15%;
+  height: 100%; 
+  font-size: 120%;
+  background: LavenderBlush;
+  padding: 0px;
+}
+
+article {
+  text-align:center;
+  padding: 20px;
+  width: 100%;
+  background-color: LightGoldenRodYellow;
+  height: 100%;
+}
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
